@@ -116,7 +116,7 @@ def run():
     time.sleep(2)
 
     print('''         
-    Adivina cuáles es el nombre del país se esconde a continuación: 
+    Adivina cuál es el nombre del país se esconde a continuación: 
                                                       ''')
 
     time.sleep(2)
