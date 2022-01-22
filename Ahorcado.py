@@ -150,13 +150,13 @@ def run():
 
         if '_' not in spaces:
             os.system('clear')
-            print('Ganaste')
+            print('Felicidades, ganaste el juego.')
             break
             input()
 
         if attempts == 0:
             os.system('clear')
-            print('Perdiste')
+            print('Lo siento, has perdido el juego.')
             break
             input()
 
