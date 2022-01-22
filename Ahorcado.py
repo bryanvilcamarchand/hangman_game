@@ -95,7 +95,7 @@ def run():
     print(''' 
     El invierno es la mejor época para algunos y la peor para otros.
     Esta estación del ańo es más dura en algunos países. Por ello tu
-    reto hoy es adivinar cuales son los países más fríos del planeta.
+    reto hoy es adivinar cuáles son los países más fríos del planeta.
     ''')
 
     time.sleep(2)
@@ -104,7 +104,8 @@ def run():
     print('''                                .                     ''')
     time.sleep(2)
 
-    nombre = input('            Ingresa tu nombre: ')
+    nombre = input('''                   
+                    Ingresa tu nombre: ''')
 
     time.sleep(2)
     print('''                                .                     ''')
@@ -113,7 +114,7 @@ def run():
     time.sleep(2)
 
     print('''         
-                        Comienza el juego''', nombre)
+                    Comienza el juego''', nombre)
 
     time.sleep(2)
     print('''                                .                     ''')
