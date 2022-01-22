@@ -67,7 +67,7 @@ def run():
 # Elegimos las palabras que usaremos en el proyecto (SPA)
 
 
-    DB = ['BANDERA', 'HIMNO', 'ESCUDO', 'ESCARAPELA']
+    DB = ['CANADA', 'ISLANDIA', 'GROELANDIA', 'RUSIA', 'ANTARTIDA', 'ESTONIA']
 
 # Use 'random.choise' to randomly select a worf of our small dataset DB (ENG)
 
@@ -82,7 +82,7 @@ def run():
 # Escribimos el mensaje que usaremos en el intro del juego. Usamos time.sleep para que aparezcan puntos mientras esperamos que aparezcan todos los mensajes. (SPA)
   
     print(''' 
-           Bivenvenido a la Trivia de símbolos patrios.
+           Bivenvenido(a) al juego del ahorcado.
     ''')
     
     time.sleep(2)
@@ -93,8 +93,9 @@ def run():
 
 
     print(''' 
-    Como buen peruano estoy seguro que conoces cuales son nuestros
-        símbolos patrios. Pondremos a prueba tus conocimientos.
+    El invierno es la mejor época para algunos y la peor para otros.
+    Esta estación del ańo es más dura en algunos países. Por ello tu
+    reto hoy es adivinar cuales son los países más fríos del planeta.
     ''')
 
     time.sleep(2)
@@ -115,7 +116,7 @@ def run():
     time.sleep(2)
 
     print('''         
-    Adivina cual es el símbolo patrio que se esconde a continuación: 
+    Adivina cuáles es el nombre del país se esconde a continuación: 
                                                       ''')
 
     time.sleep(2)
