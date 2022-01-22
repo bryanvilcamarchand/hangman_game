@@ -67,7 +67,7 @@ def run():
 # Elegimos las palabras que usaremos en el proyecto (SPA)
 
 
-    DB = ['CANADA', 'ISLANDIA', 'GROELANDIA', 'RUSIA', 'ANTARTIDA', 'ESTONIA']
+    DB = ['FINLANDIA' 'ISLANDIA', 'GROELANDIA', 'ESTONIA']
 
 # Use 'random.choise' to randomly select a worf of our small dataset DB (ENG)
 
@@ -85,11 +85,11 @@ def run():
            Bivenvenido(a) al juego del ahorcado.
     ''')
     
-    time.sleep(2)
+    time.sleep(1)
     print('''                                .                     ''')
-    time.sleep(2)
+    time.sleep(1)
     print('''                                .                     ''')
-    time.sleep(2)
+    time.sleep(1)
 
 
     print(''' 
@@ -104,10 +104,7 @@ def run():
     print('''                                .                     ''')
     time.sleep(2)
 
-
-    print('''         
-                        Comienza el juego 
-                                                      ''')
+    nombre = input('            Ingresa tu nombre: ')
 
     time.sleep(2)
     print('''                                .                     ''')
@@ -116,13 +113,22 @@ def run():
     time.sleep(2)
 
     print('''         
-    Adivina cuál es el nombre del país se esconde a continuación: 
+                        Comienza el juego''', nombre)
+
+    time.sleep(2)
+    print('''                                .                     ''')
+    time.sleep(2)
+    print('''                                .                     ''')
+    time.sleep(2)
+
+    print('''         
+    Adivina cuál es el nombre del país que se esconde a continuación: 
                                                       ''')
 
     time.sleep(2)
     print('''                                .                     ''')
     time.sleep(2)
-    print('''                               .                     ''')
+    print('''                                .                     ''')
     time.sleep(2)
 
 
@@ -151,13 +157,13 @@ def run():
 
         if '_' not in spaces:
             os.system('clear')
-            print('Felicidades, ganaste el juego.')
+            print('Felicidades ' + nombre + ', ganaste el juego.')
             break
             input()
 
         if attempts == 0:
             os.system('clear')
-            print('Lo siento, has perdido el juego.')
+            print('Lo siento ' + nombre + ', has perdido el juego.')
             break
             input()
 
